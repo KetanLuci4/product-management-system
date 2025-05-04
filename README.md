@@ -40,7 +40,13 @@ git clone https://github.com/KetanLuci4/product-management-system
 2. Configure MongoDB
 
 Make sure MongoDB is running on your system. Update the `application.properties` file if your MongoDB configuration is different from the default.
-In admin collection there should be a username : root ( with having admin permission ) and password : root
+In admin collection there should be a username and password should be as below to create a collectiions and a database if there are none. 
+The user can be replaced in `application.properties` file but the user should have an admin permission.
+
+```
+username : root ( with having admin permission )
+password : root
+```
 
 3. Build the application
 ```bash
